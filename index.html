@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tv Series</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class= "container-fluid">
+        <div class="row">
+            <div  class="col-md-8 col-xs-12">
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th >#</th>
+                    <th >Name</th>
+                    <th >Channel</th>
+                    <th >Seasons</th>
+                </tr>
+                </thead>
+                <tbody id = "seriesTbody"></tbody>
+            </table>
+            <p id = "avarage"></p>
+            </div>
+
+            <div class="card col-md-4 col-xs-12" id="container-card">
+                <h2 class="card-title" id="card-titulo" width="100%"></h2>
+                <img class= "img" id= "card-imagen" width="60%" height="200" object-fit: cover;>
+                <p class="card-body" id= "card-cuerpo" width="100%"></p>
+                <a class="card-link"  id="card-enlace"></a>
+                
+            </div>
+            
+        </div>
+    </div>
+   
+    <script type="module" src="./scripts/Serie.js" ></script>
+    <script type="module" src="./scripts/Data.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>
+
+
